@@ -28,6 +28,7 @@ var playlist = {
   RollingStones: 'Jumpin Jack Flash',
   Beatles: 'Eleanor Rigby',
 }
+
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
   return playlist;
