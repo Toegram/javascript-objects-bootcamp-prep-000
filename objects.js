@@ -29,6 +29,6 @@ var playlist = {
   Beatles: 'Eleanor Rigby',
 
   function removeFromPlaylist(playlist, artistName) {
-    delete playlist.artistName;
+    delete playlist.RollingStones
       }
 };
