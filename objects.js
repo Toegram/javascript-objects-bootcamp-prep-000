@@ -28,7 +28,7 @@ var playlist = {
   RollingStones: 'Jumpin Jack Flash',
   Beatles: 'Eleanor Rigby',
 
-  updatePlaylist function removeFromPlaylist(playlist, artistName) {
+ removeFromPlaylist(playlist, artistName) {
     delete playlist.RollingStones;
     return playlist;
   }
