@@ -30,7 +30,10 @@ var playlist = {
 
 
 };
-
+function updatePlaylist(object, string, songTitle) {
+  object.assign({string: songtitle})
+  return object;
+}
 
 function removeFromPlaylist(playlist, artistName) {
     delete playlist.artistName;
