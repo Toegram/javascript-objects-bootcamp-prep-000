@@ -24,7 +24,7 @@ console.log(meals);
 //only the last value pair gets SAVED
 //as if we change the var in a later line
 
-var objects = {
+var playlist = {
   RollingStones: 'Jumpin Jack Flash',
   Beatles: 'Eleanor Rigby',
 };
