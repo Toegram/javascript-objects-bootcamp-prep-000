@@ -28,8 +28,11 @@ var playlist = {
   RollingStones: 'Jumpin Jack Flash',
   Beatles: 'Eleanor Rigby',
 
- removeFromPlaylist(playlist, artistName) {
+
+};
+
+
+function removeFromPlaylist(playlist, artistName) {
     delete playlist.artistName;
     return playlist;
   }
-};
