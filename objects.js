@@ -29,7 +29,7 @@ var playlist = {
   Beatles: 'Eleanor Rigby',
 }
 function updatePlaylist(playlist, artistName, songTitle) {
-  Object.assign({ artistName: songTitle });
+  playlist[artistName] = songTitle;
   return playlist;
 
 function removeFromPlaylist(playlist, artistName) {
